@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drin & Thread</title>
     <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header></header>
+    <header>
+        <div class="left">
+
+        </div>
+        <div class="logo">
+            Drin <span class="ampersand">&amp;</span> Thread
+        </div>
+        <div class="right">
+            <img src="{{ url_for('static', path='/img/search.png') }}" alt="Search" class="search-icon">
+            <img src="{{ url_for('static', path='/img/shopping_bag.png') }}" alt="Shopping Bag" class="shopping-bag-icon">
+        </div>
+    </header>
     <script src="{{ url_for('static', path='/js/main.js') }}"></script>
 </body>
+
 </html>
